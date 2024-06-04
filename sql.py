@@ -22,6 +22,8 @@ cursor.execute(command1)
 
 #store results in a variable and print the result
 results = cursor.fetchall()
+
+#cursor.fethcall() is an iterable object.
 print(results[0])
 
 #close the connection
